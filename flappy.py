@@ -8,8 +8,11 @@ Exercises
 4. Allow the bird to move forward and back.
 """
 
-from random import *
-from turtle import *
+from random import randrange
+from turtle import (
+    clear, dot, goto, setup, up, update,
+    ontimer, hideturtle, tracer, onscreenclick, done
+)
 
 from freegames import vector
 
